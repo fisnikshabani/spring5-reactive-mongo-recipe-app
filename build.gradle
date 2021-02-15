@@ -38,6 +38,7 @@ dependencies {
 	compile 'org.webjars:bootstrap:3.3.7-1'
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile group: 'org.springframework', name: 'spring-webflux', version: '5.3.3'
 }
 
 //export test coverage
